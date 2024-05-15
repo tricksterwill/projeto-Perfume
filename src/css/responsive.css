@@ -1,0 +1,48 @@
+@media (max-width: 1120px){
+    
+    .cabecalho .logo{
+        max-width: 190px;
+        margin-bottom: 15px;
+
+    }
+
+    .selecao-de-perfumes{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto ;
+        
+        
+
+    }
+
+    .selecao-de-perfumes .perfumes{
+        margin-top: 40px;
+    }
+
+    .selecao-de-perfumes .perfumes .titulo{
+        font-size: 25px;
+    }
+
+    .selecao-de-perfumes .lista-de-perfumes{
+      gap: 9px;
+      margin-bottom: 15px; 
+    }
+
+.selecao-de-perfumes .perfume img{
+    width: 80px;
+}
+
+.perfume-selecionado .perfume-grande{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+.perfume-selecionado .descricao-perfume{
+    max-width: 70%;
+    margin: 20px auto;
+    font-size: 16px;
+
+
+}
+}

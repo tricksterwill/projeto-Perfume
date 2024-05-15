@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Perfumes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="shortcut icon" href="./src/imagens/x-icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.png" alt="logo">
+    </header>
+
+
+    <main class="selecao-de-perfumes">
+        <section class="perfumes">
+            <h1 class="titulo">Perfumes</h1>
+            <ul class="lista-de-perfumes">
+                <li class="perfume selecionado" id="ford" data-name="Tobacco Vanille" data-description="Tobacco Vanille de Tom Ford é um perfume Âmbar Especiado Compartilhável. Tobacco Vanille foi lançada em 2007. O perfumista que assina esta fragrância é Olivier Gillotin. As notas de topo são: Folha de Tabaco e Notas Especiadas. As notas de coração são: Baunilha, Cacau, Fava Tonka e Flor de Tabaco. As notas de fundo são: Frutas Secas e Notas Amadeiradas.">
+                    <img src="./src/imagens/card-ford.jpg" alt="perfume-tom-ford">
+                </li>
+                <li class="perfume" id="xerjoff" data-name="Renaissance" data-description="XJ 1861 Renaissance de Xerjoff é um perfume Cítrico Aromático Compartilhável. XJ 1861 Renaissance foi lançado em 2011. As notas de topo são Limão Amalfi, Tangerina, Bergamota e Petitgrain; as notas de coração são Hortelã, Lírio-do-Vale e Rosa; as notas de fundo são Almíscar, Cedro da Virgínia, Âmbar e Patchouli ou Oriza.">
+                    <img src="./src/imagens/card-xerjoff.jpg" alt="perfume-xerjoff">
+                </li>
+                <li class="perfume" id="creed" data-name="Aventus" data-description="Aventus de Creed é um perfume Chipre Frutado Masculino. Aventus foi lançada em 2010. Aventus foi criada por Jean-Christophe Hérault e Erwin Creed. As notas de topo são Bergamota, Groselha Preta, Maçã, Limão Limão e Pimenta Rosa; as notas de coração são Abacaxi, Patchouli ou Oriza e Jasmim Marroquino; as notas de fundo são Bétula, Almíscar, Musgo de Carvalho, Ambroxan e Cedro.">
+                    <img src="./src/imagens/card-creed.jpg" alt="perfume-creed">
+                </li>
+                <li class="perfume" id="versace" data-name="Eros" data-description="Eros de Versace é um perfume Aromático Fougére Masculino. Eros foi lançado em 2012. O perfumista desta fragrância é Aurelien Guichard. As notas de topo são Hortelã, Maçã Verde e Limão; as notas de coração são Fava Tonka, Ambroxan e Gerânio; as notas de fundo são Baunilha de Madagascar, Cedro da Virgínia, Cedro Atlas, Vetiver e Musgo de Carvalho.">
+                    <img src="./src/imagens/card-versace.jpg" alt="perfume-versace">
+                </li>
+                <li class="perfume" id="layton" data-name="Layton" data-description="Layton de Parfums de Marly é um perfume Âmbar Floral Compartilhável. Layton foi lançado em 2016. O perfumista desta fragrância é Hamid Merati-Kashani. As notas de topo são Maçã, Lavanda, Bergamota e Tangerina; as notas de coração são Gerânio, Violeta e Jasmim; as notas de fundo são Baunilha, Cardamomo, Sândalo, Pimenta, Madeira Guaiac e Patchouli ou Oriza.">
+                    <img src="./src/imagens/card-layton.jpg" alt="perfume-layton">
+                </li>
+                <li class="perfume" id="bvlgari" data-name="Man In Black" data-description="Bvlgari Man In Black de Bvlgari é um perfume Floral Âmbar Masculino. Bvlgari Man In Black foi lançado em 2014. O perfumista que assina esta fragrância é Alberto Morillas. As notas de topo são Especiarias, Rum e Tabaco; as notas de coração são Couro, Íris e Tuberosa; as notas de fundo são Fava Tonka, Madeira Guaiac e Benjoim.">
+                    <img src="./src/imagens/card-bvlgari.jpg" alt="perfume-bvlgari">
+                </li>
+                <li class="perfume" id="angels" data-name="Angels' Share" data-description="Angels' Share de By Kilian é um perfume Âmbar Baunilha Compartilhável. Angels' Share foi lançado em 2020. O perfumista desta fragrância é Benoist Lapouza. A nota de topo é conhaque; as notas de coração são Canela, Fava Tonka e Carvalho; as notas de fundo são Baunilha, Praliné e Sândalo.">
+                    <img src="./src/imagens/card-angels.jpg" alt="perfume-angels" >
+                </li>
+                <li class="perfume" id="valentino" data-name="Born In Roma" data-description="Valentino Uomo Born In Roma Intense de Valentino é um perfume Âmbar Baunilha Masculino. Esta é uma nova fragrância. Valentino Uomo Born In Roma Intense foi lançado em 2023. Valentino Uomo Born In Roma Intense foi criado por Antoine Maisondieu e Guillaume Flavigny. A nota de topo é Baunilha; a nota média é Lavanda; nota de base é Vetiver.">
+                    <img src="./src/imagens/card-valentino.jpg" alt="perfume-valentino">
+                </li>
+            </ul>
+        </section>
+        <section class="perfume-selecionado">
+            <img class="perfume-grande" src="./src/imagens/card-ford.png" alt="perfume-tom-ford">
+
+            <div class="informacoes-perfume">
+                <h2 class="nome-perfume" id="nome-perfume">Tom Ford</h2>
+                <p class="descricao-perfume" id="descricao-perfume">Tobacco Vanille de Tom Ford é um perfume Âmbar Especiado Compartilhável. Tobacco Vanille foi lançada em 2007. O perfumista que assina esta fragrância é Olivier Gillotin. As notas de topo são: Folha de Tabaco e Notas Especiadas. As notas de coração são: Baunilha, Cacau, Fava Tonka e Flor de Tabaco. As notas de fundo são: Frutas Secas e Notas Amadeiradas.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>

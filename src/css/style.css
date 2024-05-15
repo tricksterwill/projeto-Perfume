@@ -1,0 +1,106 @@
+body{
+    font-family: "Cinzel", serif;
+    background-color: hsl(0, 0%, 0%);
+    color: #ffffff;
+    overflow: hidden;
+
+}
+
+body::before{
+    content: "";
+    background-image: url(../imagens/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.10;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+.cabecalho .logo{
+    display: flex;
+    margin-top: 20px;
+}
+
+.selecao-de-perfumes{
+    display: flex;
+	align-items: center;
+	gap: 50px;
+    min-height: calc(100vh - 152px);
+    justify-content: center;
+}
+
+.selecao-de-perfumes .lista-de-perfumes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    
+}
+
+.selecao-de-perfumes .perfumes{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 585px;
+	gap: 25px;
+}
+
+.selecao-de-perfumes .perfumes .titulo {
+    font-size: 20px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #e1ed8d;
+	width: 100%;
+	text-align: center;
+}
+
+.lista-de-perfumes .perfume{
+    border-bottom: 4px solid #877b21;
+}
+
+.lista-de-perfumes .perfume img{
+    width: 100%;
+	height: 100%;
+    border-radius: 5px;
+}
+
+.lista-de-perfumes .perfume.selecionado {
+    box-shadow: 0px 0px 24px 5px #7b6e32;
+}
+
+.perfume-selecionado{
+    text-align: center;
+    max-height: 530px;
+}
+
+.perfume-selecionado .perfume-grande{
+
+    width: 430px;
+    height: 430px;
+}
+ 
+.perfume-selecionado .nome-perfume{
+    border-bottom: 2px solid #ebda6f;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.perfume-selecionado .descricao-perfume{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    width: 625px;
+}
+
+
+    
+    
+    
